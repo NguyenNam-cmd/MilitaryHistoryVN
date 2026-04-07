@@ -49,6 +49,14 @@ export default function AdminLayout() {
                   <span className="mr-3 text-xl">🗓️</span> Quản lý Thời kỳ
                 </Link>
               </li>
+              <li>
+                <Link
+                  to="/admin/battlefield"
+                  className="flex items-center py-3 px-4 rounded-lg hover:bg-gray-100 text-navy font-medium transition"
+                >
+                  <span className="mr-3 text-xl">🗺️</span> Quản lý Bản đồ
+                </Link>
+              </li>
             </ul>
           </nav>
         </div>

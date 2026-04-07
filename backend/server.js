@@ -43,6 +43,7 @@ const adminFiguresRouter = require("./routes/adminFigures");
 const adminPeriodsRouter = require("./routes/adminPeriods");
 const adminDashboardRouter = require("./routes/adminDashboard");
 const uploadRouter = require("./routes/upload");
+const adminBattlefieldRouter = require("./routes/adminBattlefield");
 
 app.use("/api/timeline", timelineRouter);
 app.use("/api/periods", periodsRouter);
@@ -53,6 +54,7 @@ app.use("/api/admin/events", adminEventsRouter);
 app.use("/api/admin/figures", adminFiguresRouter);
 app.use("/api/admin/periods", adminPeriodsRouter);
 app.use("/api/admin", adminDashboardRouter);
+app.use("/api/admin/battlefield", adminBattlefieldRouter);
 app.use("/api/upload", uploadRouter);
 app.use(express.static(path.join(__dirname, "public")));
 
