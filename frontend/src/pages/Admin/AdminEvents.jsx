@@ -200,15 +200,16 @@ export default function AdminEvents() {
               required
             />
           </div>
-
-          <input
-            name="year_display_vi"
-            placeholder="Năm hiển thị (VI) - ví dụ: 221 TCN"
-            value={formData.year_display_vi}
-            onChange={handleChange}
-            className="p-4 border rounded-lg"
-            required
-          />
+          <div className="">
+            <input
+              name="year_display_vi"
+              placeholder="Năm hiển thị (VI) - ví dụ: 221 TCN"
+              value={formData.year_display_vi}
+              onChange={handleChange}
+              className="p-4 border rounded-lg mt-8 w-full"
+              required
+            />
+          </div>
 
           <input
             name="year_display_en"

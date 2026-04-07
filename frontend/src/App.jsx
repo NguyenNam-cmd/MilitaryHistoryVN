@@ -15,12 +15,14 @@ import FigureDetail from "./pages/FigureDetail";
 import Search from "./pages/Search";
 import EventDetail from "./pages/EventDetail";
 import PeriodDetail from "./pages/PeriodDetail";
+import BattlefieldPage from "./pages/BattelfieldPage"
 
 import AdminLogin from "./pages/Admin/AdminLogin";
 import AdminDashboard from "./pages/Admin/AdminDashboard";
 import AdminEvents from "./pages/Admin/AdminEvents";
 import AdminFigures from "./pages/Admin/AdminFigures";
 import AdminPeriods from "./pages/Admin/AdminPeriods";
+import AdminBattlefield from "./pages/Admin/AdminBattlefield";
 
 import AdminLayout from "./layouts/AdminLayout";
 
@@ -53,6 +55,7 @@ function App() {
                   <Route path="/search" element={<Search />} />
                   <Route path="/event/:id" element={<EventDetail />} />
                   <Route path="/period/:id" element={<PeriodDetail />} />
+                  <Route path="/battelfield" element={<BattlefieldPage />} />
                 </Routes>
               </main>
               <Footer />
@@ -94,6 +97,14 @@ function App() {
             element={
               <ProtectedAdminRoute>
                 <AdminPeriods />
+              </ProtectedAdminRoute>
+            }
+          />
+          <Route
+            path="/admin/battlefield"
+            element={
+              <ProtectedAdminRoute>
+                <AdminBattlefield />
               </ProtectedAdminRoute>
             }
           />
