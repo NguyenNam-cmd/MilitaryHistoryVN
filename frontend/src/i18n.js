@@ -91,6 +91,24 @@ const resources = {
       "common.no_image": "Không có ảnh",
       "common.unknown": "Không rõ",
       "footer.source": "Nguồn dữ liệu từ tài liệu chính thống",
+      "footer.museum_title": "Bảo Tàng Lịch Sử Quân Sự Việt Nam",
+      "footer.museum_description":
+        "Nơi lưu giữ và tôn vinh những giá trị lịch sử, văn hóa và truyền thống anh hùng của dân tộc.",
+      "footer.main_address": "Địa chỉ chính:",
+      "footer.address_detail":
+        "Km 6+500 Đại lộ Thăng Long, phường Tây Mỗ và Đại Mỗ, quận Nam Từ Liêm, thành phố Hà Nội",
+      "footer.museums_title": "Các bảo tàng quân sự tiêu biểu",
+      "footer.museum_name": "Bảo tàng Lịch sử Quân sự Việt Nam",
+      "footer.museum_address":
+        "Km 6+500 Đại lộ Thăng Long, Phường Tây Mỗ, Quận Nam Từ Liêm, Hà Nội",
+      "footer.view_on_maps": "Xem vị trí đầy đủ trên Google Maps →",
+      "footer.connect_title": "Kết nối với chúng tôi",
+      "footer.hotline": "Hotline:",
+      "footer.email": "Email:",
+      "footer.opening_hours": "Giờ mở cửa: 8:00 – 16:30 (Thứ 3 – 5, Thứ 7-CN)",
+      "footer.copyright": "Bảo Tàng Lịch Sử Việt Nam. All rights reserved.",
+      "footer.source_detail":
+        "Nguồn tài liệu từ các bảo tàng lịch sử và kho lưu trữ quốc gia",
       title: "Một số hình ảnh về mô hình khí tài",
       back: "Quay lại",
       present: "nay",
@@ -118,7 +136,6 @@ const resources = {
         "Over the course of 81 years of building, fighting and growing (1944–2025), the Vietnam People’s Army has firmly established its role as the backbone of the nation’s efforts to build and defend the Fatherland; it is the loyal and reliable political and military force of the Party, the State and the people. From a force born under extremely difficult conditions, with a small contingent and rudimentary weapons, our Army has continuously grown in strength, achieving glorious victories and forging Vietnam’s strength in the era of Ho Chi Minh.",
       "home.timeline.title": "Some historic milestones",
       "home.timeline.view_all": "View full timeline →",
-      // ==================== PHẦN MỚI: ARTIFACT SLIDER (ENGLISH) ====================
       "artifactSlider.title": "Some images of military models",
       "caroselVideo.title": "Archival footage of the campaigns",
       "artifactSlider.slides": [
@@ -188,6 +205,24 @@ const resources = {
       "common.no_image": "No image",
       "common.unknown": "Unknown",
       "footer.source": "Source data from official documents",
+      "footer.museum_title": "Vietnam Military History Museum",
+      "footer.museum_description":
+        "A place to preserve and honor the historical, cultural and heroic traditions of the nation.",
+      "footer.main_address": "Main address:",
+      "footer.address_detail":
+        "Km 6+500 Thang Long Boulevard, Tay Mo and Dai Mo Wards, Nam Tu Liem District, Hanoi City",
+      "footer.museums_title": "Notable Military Museums",
+      "footer.museum_name": "Vietnam Military History Museum",
+      "footer.museum_address":
+        "Km 6+500 Thang Long Boulevard, Tay Mo Ward, Nam Tu Liem District, Hanoi",
+      "footer.view_on_maps": "View full location on Google Maps →",
+      "footer.connect_title": "Connect with us",
+      "footer.hotline": "Hotline:",
+      "footer.email": "Email:",
+      "footer.opening_hours": "Opening hours: 8:00 – 16:30 (Tue – Thu, Sat-Sun)",
+      "footer.copyright": "Vietnam History Museum. All rights reserved.",
+      "footer.source_detail":
+        "Source materials from historical museums and national archives",
       title: "Some images of military models",
       back: "Back",
       present: "present",
