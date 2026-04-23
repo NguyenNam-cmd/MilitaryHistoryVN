@@ -159,7 +159,7 @@ router.put("/:id", async (req, res) => {
 
     await pool.query(
       `INSERT INTO AdminLogs (type, action, item_id, item_name) VALUES (?, ?, ?, ?)`,
-      [TYPE_MAP.period, ACTION_MAP.edit, id, full_name_vi || "Nhân vật đẵ sửa"],
+      [TYPE_MAP.figure, ACTION_MAP.edit, id, full_name_vi || "Nhân vật đẵ sửa"],
     );
 
     res.json({ message: "Updated" });
